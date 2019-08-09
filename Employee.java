@@ -14,7 +14,7 @@ import java.util.ListIterator;
 @Entity
 @Table(name = "employees")
 
-public class Employee implements List<Employee> {
+public class Employee  {
 
 	private long id;
 	private String firstName;
@@ -63,8 +63,8 @@ public class Employee implements List<Employee> {
 	}
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
-	}
-
+	}}
+/*
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", emailId=" + emailId
@@ -186,3 +186,4 @@ public class Employee implements List<Employee> {
 		return null;
 	}
 }
+*/
